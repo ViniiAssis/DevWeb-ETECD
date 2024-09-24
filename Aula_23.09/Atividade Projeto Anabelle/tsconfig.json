@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",                           // Define a versão de saída do JavaScript
+    "module": "commonjs",                      // Define o sistema de módulos
+    "esModuleInterop": true,                   // Permite interoperabilidade entre ES6 e CommonJS
+    "forceConsistentCasingInFileNames": true,  // Força diferenciação entre maiúsculas e minúsculas nos nomes de arquivos
+    "strict": true,                            // Ativa verificações estritas de tipo
+    "skipLibCheck": true,                      // Ignora verificação de tipos em arquivos de bibliotecas
+    "outDir": "./dist",                        // Diretório de saída para o JavaScript compilado
+    "rootDir": "./"                            // Diretório raiz do TypeScript
+  },
+  "include": [
+    "./js/*.ts"                                // Inclui arquivos .ts na pasta js
+  ]
+}
+
+
