@@ -323,3 +323,8 @@ txt = txt.toUpperCase();
 29-
 
 
+Convert the value of txt to lower case.
+
+
+let txt = "Hello World";
+txt = txt.toLowerCase();
