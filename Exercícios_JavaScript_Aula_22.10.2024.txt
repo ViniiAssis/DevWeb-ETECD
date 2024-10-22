@@ -1,0 +1,131 @@
+1-
+
+
+const num1 = Number(prompt("Digite o primeiro número:"));
+const num2 = Number(prompt("Digite o segundo número:"));
+alert(`A soma é: ${num1 + num2}`);
+
+2-
+
+
+alert(`A subtração é: ${num1 - num2}`);
+
+3-
+
+
+alert(`A multiplicação é: ${num1 * num2}`);
+
+4-
+
+
+alert(`A divisão é: ${num1 / num2}`);
+
+5-
+
+
+alert(`O resto da divisão é: ${num1 % num2}`);
+
+6-
+
+
+let valor = 0;
+valor++;
+alert(`Valor incrementado: ${valor}`);
+
+
+7-
+
+
+valor = 0;
+valor--;
+alert(`Valor decrementado: ${valor}`);
+8-
+
+
+let a = 10;
+let b = a;
+alert(`O valor de b é: ${b}`);
+
+// 9)
+valor = 5;
+valor += 10;
+alert(`Valor após somar 10: ${valor}`);
+
+// 10)
+valor = 15;
+valor -= 5;
+alert(`Valor após subtrair 5: ${valor}`);
+
+// 11)
+valor = 3;
+valor *= 4;
+alert(`Valor após multiplicar por 4: ${valor}`);
+
+// 12)
+valor = 8;
+valor /= 2;
+alert(`Valor após dividir por 2: ${valor}`);
+
+// 13)
+valor = 10;
+alert(`Resto da divisão por 3: ${valor % 3}`);
+
+// 14)
+const num = Number(prompt("Digite um número:"));
+alert(num >= 0 ? "Número é positivo" : "Número é negativo");
+
+// 15)
+alert(num % 2 === 0 ? "Número é par" : "Número é ímpar");
+
+// 16)
+alert(num1 > num2 ? "O primeiro número é maior" : "O segundo número é maior");
+
+// 17)
+const idade = Number(prompt("Digite sua idade:"));
+alert(idade > 18 ? "Maior de 18 anos" : "Menor de 18 anos");
+
+// 18)
+alert(num >= 0 && num <= 100 ? "Número está no intervalo" : "Número está fora do intervalo");
+
+// 19)
+const letra = prompt("Digite uma letra:").toLowerCase();
+const vogais = ["a", "e", "i", "o", "u"];
+alert(vogais.includes(letra) ? "É uma vogal" : "É uma consoante");
+
+// 20)
+const num3 = Number(prompt("Digite o terceiro número:"));
+const maior = Math.max(num1, num2, num3);
+alert(`O maior número é: ${maior}`);
+
+// 21)
+const ano = Number(prompt("Digite um ano:"));
+const bissexto = (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
+alert(bissexto ? "Ano bissexto" : "Ano não bissexto");
+
+// 22)
+alert(num1 > 0 && num2 > 0 ? "Ambos são positivos" : "Um ou ambos são negativos");
+
+// 23)
+alert(num1 < 0 || num2 < 0 ? "Pelo menos um número é negativo" : "Ambos são positivos");
+
+// 24)
+alert(num > 0 && num % 2 === 0 ? "É par e positivo" : "Não é par ou não é positivo");
+
+// 25)
+alert(num % 5 !== 0 ? "Não é múltiplo de 5" : "É múltiplo de 5");
+
+// 26)
+alert(num < 1 || num > 10 ? "Fora do intervalo de 1 a 10" : "Dentro do intervalo de 1 a 10");
+
+// 27)
+alert(num1 % 2 === 0 && num2 % 2 === 0 ? "Ambos são pares" : "Um ou ambos são ímpares");
+
+// 28)
+alert(num1 + num2 > 100 ? "A soma é maior que 100" : "A soma é menor ou igual a 100");
+
+// 29)
+alert(num1 === num2 ? "Números são iguais" : "Números são diferentes");
+
+// 30)
+const str = prompt("Digite uma string:");
+alert(str.trim() !== "" ? "String não está vazia" : "String está vazia");
