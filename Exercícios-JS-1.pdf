@@ -1,0 +1,269 @@
+1- Soma de dois números:
+
+
+let a = parseFloat(prompt("Digite o primeiro número:"));
+let b = parseFloat(prompt("Digite o segundo número:"));
+alert("A soma é: " + (a + b));
+
+2- Subtração do primeiro pelo segundo:
+
+let a = parseFloat(prompt("Digite o primeiro número:"));
+let b = parseFloat(prompt("Digite o segundo número:"));
+alert("A subtração é: " + (a - b));
+
+
+3- Multiplicação de dois números:
+
+let a = parseFloat(prompt("Digite o primeiro número:"));
+let b = parseFloat(prompt("Digite o segundo número:"));
+alert("A multiplicação é: " + (a * b));
+
+
+4- Divisão do primeiro pelo segundo:
+
+let a = parseFloat(prompt("Digite o primeiro número:"));
+let b = parseFloat(prompt("Digite o segundo número:"));
+alert("A divisão é: " + (a / b));
+
+
+5- Resto da divisão do primeiro pelo segundo:
+
+let a = parseInt(prompt("Digite o primeiro número:"));
+let b = parseInt(prompt("Digite o segundo número:"));
+alert("O resto da divisão é: " + (a % b));
+
+
+6- Incrementar uma variável em 1:
+
+let x = 5;
+x++;
+alert("O valor incrementado é: " + x);
+
+
+7- Decrementar uma variável em 1:
+
+
+let x = 5;
+x--;
+alert("O valor decrementado é: " + x);
+
+
+8- Atribuir o valor de uma variável a outra:
+
+let a = 10;
+let b = a;
+alert("O valor de b é: " + b);
+
+
+9- Somar 10 a uma variável:
+
+let x = 5;
+x += 10;
+alert("O valor após a soma é: " + x);
+
+
+10- Subtrair 5 de uma variável:
+
+let x = 10;
+x -= 5;
+alert("O valor após a subtração é: " + x);
+
+
+11- Multiplicar uma variável por 4:
+
+let x = 2;
+x *= 4;
+alert("O valor após a multiplicação é: " + x);
+
+
+12- Dividir uma variável por 2:
+
+let x = 8;
+x /= 2;
+alert("O valor após a divisão é: " + x);
+
+
+13- Resto da divisão de uma variável por 3:
+
+let x = 10;
+alert("O resto da divisão por 3 é: " + (x % 3));
+
+
+14- Verificar se um número é positivo ou negativo:
+
+let x = parseFloat(prompt("Digite um número:"));
+if (x > 0) {
+    alert("O número é positivo.");
+} else if (x < 0) {
+    alert("O número é negativo.");
+} else {
+    alert("O número é zero.");
+}
+
+
+15- Verificar se um número é par ou ímpar:
+
+let x = parseInt(prompt("Digite um número:"));
+if (x % 2 === 0) {
+    alert("O número é par.");
+} else {
+    alert("O número é ímpar.");
+}
+
+
+16- Verificar qual dos dois números é maior:
+
+let a = parseFloat(prompt("Digite o primeiro número:"));
+let b = parseFloat(prompt("Digite o segundo número:"));
+if (a > b) {
+    alert("O maior número é: " + a);
+} else if (b > a) {
+    alert("O maior número é: " + b);
+} else {
+    alert("Os números são iguais.");
+}
+
+
+17- Verificar se uma pessoa tem mais de 18 anos:
+
+let idade = parseInt(prompt("Digite a sua idade:"));
+if (idade > 18) {
+    alert("Você é maior de 18 anos.");
+} else {
+    alert("Você é menor de 18 anos.");
+}
+
+
+18- Verificar se um número está no intervalo entre 0 e 100:
+
+let x = parseFloat(prompt("Digite um número:"));
+if (x >= 0 && x <= 100) {
+    alert("O número está no intervalo entre 0 e 100.");
+} else {
+    alert("O número está fora do intervalo.");
+}
+
+
+19- Verificar se uma letra é uma vogal ou consoante:
+
+let letra = prompt("Digite uma letra:").toLowerCase();
+if ("aeiou".includes(letra)) {
+    alert("É uma vogal.");
+} else {
+    alert("É uma consoante.");
+}
+
+
+20- Verificar qual dos três números é o maior:
+
+let a = parseFloat(prompt("Digite o primeiro número:"));
+let b = parseFloat(prompt("Digite o segundo número:"));
+let c = parseFloat(prompt("Digite o terceiro número:"));
+let maior = Math.max(a, b, c);
+alert("O maior número é: " + maior);
+
+
+21- Verificar se um ano é bissexto:
+
+let ano = parseInt(prompt("Digite um ano:"));
+if ((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)) {
+    alert("O ano é bissexto.");
+} else {
+    alert("O ano não é bissexto.");
+}
+
+
+22- Verificar se dois números são positivos:
+
+let a = parseFloat(prompt("Digite o primeiro número:"));
+let b = parseFloat(prompt("Digite o segundo número:"));
+if (a > 0 && b > 0) {
+    alert("Ambos os números são positivos.");
+} else {
+    alert("Pelo menos um dos números não é positivo.");
+}
+
+
+23- Verificar se pelo menos um dos dois números é negativo:
+
+let a = parseFloat(prompt("Digite o primeiro número:"));
+let b = parseFloat(prompt("Digite o segundo número:"));
+if (a < 0 || b < 0) {
+    alert("Pelo menos um dos números é negativo.");
+} else {
+    alert("Nenhum dos números é negativo.");
+}
+
+
+24- Verificar se um número é par e positivo:
+
+let x = parseInt(prompt("Digite um número:"));
+if (x > 0 && x % 2 === 0) {
+    alert("O número é par e positivo.");
+} else {
+    alert("O número não é par e positivo.");
+}
+
+
+25- Verificar se um número não é múltiplo de 5:
+
+let x = parseInt(prompt("Digite um número:"));
+if (x % 5 !== 0) {
+    alert("O número não é múltiplo de 5.");
+} else {
+    alert("O número é múltiplo de 5.");
+}
+
+
+26- Verificar se um número está fora do intervalo de 1 a 10:
+
+let x = parseInt(prompt("Digite um número:"));
+if (x < 1 || x > 10) {
+    alert("O número está fora do intervalo de 1 a 10.");
+} else {
+    alert("O número está dentro do intervalo.");
+}
+
+
+27- Verificar se dois números são pares:
+
+let a = parseInt(prompt("Digite o primeiro número:"));
+let b = parseInt(prompt("Digite o segundo número:"));
+if (a % 2 === 0 && b % 2 === 0) {
+    alert("Ambos os números são pares.");
+} else {
+    alert("Pelo menos um dos números não é par.");
+}
+
+
+28- Verificar se a soma de dois números é maior que 100:
+
+let a = parseFloat(prompt("Digite o primeiro número:"));
+let b = parseFloat(prompt("Digite o segundo número:"));
+if (a + b > 100) {
+    alert("A soma é maior que 100.");
+} else {
+    alert("A soma não é maior que 100.");
+}
+
+
+29- Verificar se dois números são iguais ou diferentes:
+
+let a = parseFloat(prompt("Digite o primeiro número:"));
+let b = parseFloat(prompt("Digite o segundo número:"));
+if (a === b) {
+    alert("Os números são iguais.");
+} else {
+    alert("Os números são diferentes.");
+}
+
+
+30- Verificar se uma string não está vazia:
+
+
+let s = prompt("Digite uma string:");
+if (s) {
+    alert("A string não está vazia.");
+} else {
+    alert("A string está vazia.");
+}
